@@ -1,0 +1,66 @@
+2025/02/16 00:16:23 Starting Malina Temp...
+2025/02/16 00:16:25 Checking mail for kskauhqzol@nomail.store
+2025/02/16 00:16:26 Successfully connected to IMAP
+2025/02/16 00:16:26 Selected INBOX folder, messages: 0
+2025/02/16 00:16:26 Found emails: 0
+2025/02/16 00:16:31 Checking mail for yyxglcydwx@nomail.store
+2025/02/16 00:16:31 Successfully connected to IMAP
+2025/02/16 00:16:31 Selected INBOX folder, messages: 0
+2025/02/16 00:16:31 Found emails: 0
+2025/02/16 00:16:36 Checking mail for yyxglcydwx@nomail.store
+2025/02/16 00:16:36 Successfully connected to IMAP
+2025/02/16 00:16:36 Selected INBOX folder, messages: 0
+2025/02/16 00:16:36 Found emails: 0
+2025/02/16 00:16:41 Checking mail for yyxglcydwx@nomail.store
+2025/02/16 00:16:41 Successfully connected to IMAP
+2025/02/16 00:16:41 Selected INBOX folder, messages: 0
+2025/02/16 00:16:41 Found emails: 0
+2025/02/16 00:16:46 Checking mail for yyxglcydwx@nomail.store
+2025/02/16 00:16:46 Successfully connected to IMAP
+2025/02/16 00:16:46 Selected INBOX folder, messages: 0
+2025/02/16 00:16:46 Found emails: 0
+2025/02/16 00:16:51 Checking mail for yyxglcydwx@nomail.store
+2025/02/16 00:16:51 Successfully connected to IMAP
+2025/02/16 00:16:51 Selected INBOX folder, messages: 0
+2025/02/16 00:16:51 Found emails: 0
+2025/02/16 00:16:56 Checking mail for yyxglcydwx@nomail.store
+2025/02/16 00:16:57 Successfully connected to IMAP
+2025/02/16 00:16:57 Selected INBOX folder, messages: 0
+2025/02/16 00:16:57 Found emails: 0
+2025/02/16 00:17:02 Checking mail for yyxglcydwx@nomail.store
+2025/02/16 00:17:02 Successfully connected to IMAP
+2025/02/16 00:17:02 Selected INBOX folder, messages: 1
+2025/02/16 00:17:02 Processing message from Michael Riger with subject 
+2025/02/16 00:17:02 Content type: multipart/alternative
+2025/02/16 00:17:02 Added message text
+2025/02/16 00:17:02 Added HTML message text
+2025/02/16 00:17:02 Message content after processing: уацупцуп
+2025/02/16 00:17:02 Adding message to list
+2025/02/16 00:17:02 Total messages processed: 1
+2025/02/16 00:17:02 Found emails: 1
+2025/02/16 00:17:02 Sent notification about 1 new emails
+2025/02/16 00:17:02 Fyne error:  Failed to launch windows notify script
+2025/02/16 00:17:02   Cause: exec: "PowerShell": executable file not found in %PATH%
+2025/02/16 00:17:02   At: C:/Users/Alesta/go/pkg/mod/fyne.io/fyne/v2@v2.5.4/app/app_windows.go:88
+2025/02/16 00:17:07 Checking mail for yyxglcydwx@nomail.store
+2025/02/16 00:17:07 Successfully connected to IMAP
+2025/02/16 00:17:07 Selected INBOX folder, messages: 1
+2025/02/16 00:17:07 Processing message from Michael Riger with subject 
+2025/02/16 00:17:07 Content type: multipart/alternative
+2025/02/16 00:17:07 Added message text
+2025/02/16 00:17:07 Added HTML message text
+2025/02/16 00:17:07 Message content after processing: уацупцуп
+2025/02/16 00:17:07 Adding message to list
+2025/02/16 00:17:07 Total messages processed: 1
+2025/02/16 00:17:07 Found emails: 1
+2025/02/16 00:17:12 Checking mail for yyxglcydwx@nomail.store
+2025/02/16 00:17:12 Successfully connected to IMAP
+2025/02/16 00:17:12 Selected INBOX folder, messages: 1
+2025/02/16 00:17:12 Processing message from Michael Riger with subject 
+2025/02/16 00:17:12 Content type: multipart/alternative
+2025/02/16 00:17:12 Added message text
+2025/02/16 00:17:12 Added HTML message text
+2025/02/16 00:17:12 Message content after processing: уацупцуп
+2025/02/16 00:17:12 Adding message to list
+2025/02/16 00:17:12 Total messages processed: 1
+2025/02/16 00:17:12 Found emails: 1
