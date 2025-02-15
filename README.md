@@ -1,43 +1,30 @@
 # MalinaTEMP
 
-A modern desktop application for creating and managing temporary email addresses on Mail-in-a-Box servers. Built with Go and Fyne UI framework, this client provides a user-friendly interface for temporary email management on your self-hosted Mail-in-a-Box server.
-
-The application includes error handling for common issues:
-- Shows error messages through dialog windows
-- Handles connection problems with Mail-in-a-Box API
-- Manages IMAP authentication errors
-- Provides feedback for email operations
-- Saves settings in a configuration file
+A modern desktop application for creating and managing temporary email addresses on Mail-in-a-Box servers. Built with Go and Fyne UI framework.
 
 > **Note**: This application is specifically designed to work with [Mail-in-a-Box](https://mailinabox.email/) mail servers. It requires administrative access to your Mail-in-a-Box instance.
 >
 > **Repository**: [github.com/AlestackOverglow/malinatemp](https://github.com/AlestackOverglow/malinatemp.git)
->
-> **Mail-in-a-Box**: This client works with [Mail-in-a-Box](https://github.com/mail-in-a-box/mailinabox.git) - an open source mail server solution that helps individuals take back control of their email by providing a one-click, easy-to-deploy SMTP+everything else server.
 
-![Application Screenshot](screenshot.png)
+## Core Features
 
-## Features
-
-- 🔒 Secure temporary email creation
+- 🔒 Temporary email address creation
 - 📨 Real-time email monitoring
-- 🔔 Desktop notifications for new messages
-- 📎 Support for email attachments
+- 🔔 New message notifications
 - 🌓 Dark theme interface
 - 🔄 Automatic mailbox refresh
-- 💾 Mailbox backup and restore
-- ⚙️ Configurable server settings
+- 💾 Mailbox credentials backup
 
 ## Installation
 
-### Prerequisites
+### Requirements
 
 - Go 1.21 or later
 - Git
-- A running Mail-in-a-Box server with:
+- A configured Mail-in-a-Box server with:
   - Administrative access
-  - API access enabled
-  - IMAP service running
+  - Enabled API
+  - Running IMAP service
   - Valid SSL/TLS certificates
 
 ### Building from source
@@ -73,22 +60,17 @@ go build -ldflags "-H windowsgui"
 - Create new mailboxes
 - Save current mailbox to file
 - Delete all emails with one click
-- Individual email deletion
+- Delete individual emails
 
 #### Settings
-- Configure MailInABox server settings
-- Adjust update frequency
+- MailInABox server configuration
+- Update frequency settings
 - Enable/disable notifications
-- Toggle automatic updates
-
-#### Security
-- Secure connection to IMAP server
-- Automatic mailbox deletion on exit (with confirmation)
-- Option to save mailbox credentials before closing
+- Enable/disable automatic updates
 
 ## Configuration
 
-The application requires initial configuration through the Settings menu:
+The application requires initial setup through the Settings menu:
 
 - **Server Settings**
   - API URL
@@ -99,46 +81,25 @@ The application requires initial configuration through the Settings menu:
 - **Update Settings**
   - Auto-update interval (5-60 seconds)
   - Notification preferences
-  - Update frequency
 
 ### Error Handling
 
-The application handles various error scenarios:
-
 1. **Configuration Management**
-   - Validates settings before saving
-   - Shows clear error messages for invalid settings
-   - Provides configuration guidance
+   - Settings validation before saving
+   - Clear error messages
+   - Configuration guidance
 
 2. **API and IMAP Errors**
-   - Shows error dialogs for connection problems
-   - Displays authentication failure messages
-   - Reports email operation errors
-   - Provides feedback for mailbox creation/deletion
-
-3. **Email Operations**
-   - Handles email deletion errors
-   - Shows attachment saving errors
-   - Reports email checking failures
-   - Manages mailbox backup errors
-
-4. **User Interface**
-   - Disables buttons during operations
-   - Shows progress indicator for long operations
-   - Provides clear error messages in dialogs
-   - Allows retrying failed operations
+   - Connection error dialogs
+   - Authentication failure messages
+   - Email operation error reports
 
 ## Technical Details
 
 - Built with Go and Fyne UI framework
-- Supports multiple email encodings
-- Handles HTML and plain text emails
-- Manages email attachments
-- Uses secure TLS connections
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+- Support for various email encodings
+- HTML and plain text email handling
+- Secure TLS connections
 
 ## License
 
