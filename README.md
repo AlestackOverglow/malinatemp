@@ -3,8 +3,8 @@
 A modern desktop application for creating and managing temporary email addresses on Mail-in-a-Box servers. Built with Go and Fyne UI framework.
 
 > **Note**: This application is specifically designed to work with [Mail-in-a-Box](https://github.com/mail-in-a-box/mailinabox.git) mail servers. It requires administrative access to your Mail-in-a-Box instance.
->
-> **Repository**: [github.com/AlestackOverglow/malinatemp](https://github.com/AlestackOverglow/malinatemp.git)
+
+If you find this project helpful, please consider giving it a star ⭐ It helps others discover the project and motivates further development.
 
 ## Core Features
 
